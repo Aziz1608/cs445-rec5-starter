@@ -48,18 +48,9 @@ public class LinkedListExercises {
 	// Modify list `head` so each node in it is repeated twice 
 	public static void doubleElements(Node<Integer> head) {
 		//TODO your code here
-	}
+	}	
 	
 	// Exercise 5. 
-	// Return a list where all nodes are in a reverse order
-	public static Node<Integer> getReverse (Node<Integer> head){
-		Node<Integer> result = null;
-		//TODO your code here
-		
-		return result;		
-	}
-	
-	// Exercise 6. 
 	// Find and return the data at the k-th position from the end node (the last node is at k=0)
 	public static int getKthFromEnd (Node<Integer> head, int k) {	
 		return 0;		

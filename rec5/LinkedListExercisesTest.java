@@ -54,19 +54,7 @@ class LinkedListExercisesTest {
 		LinkedListExercises.doubleElements(head);
 		assertEquals(expected, LinkedListExercises.listToString(head));
 	}
-
-	@Test
-	void testGetReverse() {
-		Node<Integer> head = null;
-		Node<Integer> reverse = LinkedListExercises.getReverse(head);
-		assertEquals("[]", LinkedListExercises.listToString(reverse));
-		
-		head = LinkedListExercises.getIntList(7);
-		String expected = "[6 5 4 3 2 1 0]";
-		reverse = LinkedListExercises.getReverse(head);
-		assertEquals(expected, LinkedListExercises.listToString(reverse));
-	}
-
+	
 	@Test
 	void testGetKthFromEnd() {
 		Node<Integer> head = LinkedListExercises.getIntList(1);
